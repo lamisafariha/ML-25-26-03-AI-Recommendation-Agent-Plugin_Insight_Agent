@@ -14,8 +14,7 @@ An AI-driven agent-based recommendation system built with **.NET (C#)** that imp
 - [Import Mode Application](#import-mode-application)
 - [Recommendation Agent Application](#recommendation-agent-application)
 - [Output](#output)
-- [Project Structure](#project-structure)
-- [How to Run](#how-to-run)
+
 
 ---
 
@@ -102,19 +101,6 @@ A relational database stores document embeddings and metadata.
 - Primary recommended document  
 - Optional Top-N ranked recommendations  
 - Includes metadata such as document name, category, and URL  
-
----
-
-## Project Structure
-
-```
-ImportMode.Console
-RecommendationAgent.Console
-Core
-Application
-Infrastructure
-Plugins
-```
 
 ---
 
