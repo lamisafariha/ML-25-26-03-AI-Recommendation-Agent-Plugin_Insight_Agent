@@ -1,7 +1,6 @@
 # ML25-26-03AI Recommendation Agent PlugIn
 
-An agent-based recommendation system built using **.NET (C#)**.  
-The project uses semantic embeddings and a plug-in (tool) architecture to recommend documents based on user intent.
+An AI-driven agent-based recommendation system built with **.NET (C#)** that imports documents, generates embeddings, and provides similarity-based recommendations using a plug-in architecture.
 
 ---
 
