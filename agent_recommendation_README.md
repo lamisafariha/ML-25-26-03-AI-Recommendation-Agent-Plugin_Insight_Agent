@@ -1,4 +1,4 @@
-# Agent-Based Recommendation System (.NET)
+# ML25-26-03AI Recommendation Agent PlugIn
 
 An agent-based recommendation system built using **.NET (C#)**.  
 The project uses semantic embeddings and a plug-in (tool) architecture to recommend documents based on user intent.
@@ -29,21 +29,21 @@ Documents are imported, embedded, and stored in a database, while user queries a
 
 ## Project Goals
 
-- Build a reusable agent-based recommendation system  
+- Build an agent-based recommendation system  
 - Support semantic (meaning-based) search using embeddings  
 - Apply clean architecture principles  
 - Enable modular extension through plug-ins (tools)  
-- Support multiple datasets from different domains  
+- Use two datasets  
 
 ---
 
 ## Datasets
 
+- **Books Dataset**  
+  Book descriptions used for recommendation 
+
 - **User Support Dataset**  
   FAQ and troubleshooting documents used to answer user problems
-
-- **Books Dataset**  
-  Book descriptions used for recommendation similar to movie recommendations
 
 ---
 
@@ -81,7 +81,7 @@ A relational database stores document embeddings and metadata.
 
 ## Import Mode Application
 
-- Scans document directories  
+- Import documents from configurable directories  
 - Extracts text using a preprocessing interface  
 - Generates embeddings using a predefined model  
 - Stores embeddings and metadata in SQL Server  
@@ -119,18 +119,10 @@ Plugins
 
 ---
 
-## How to Run
 
-1. Configure document directories  
-2. Run the Import Mode Application  
-3. Verify data stored in the database  
-4. Run the Recommendation Agent Application  
-5. Enter a query to receive recommendations  
 
----
+## Project Members
 
-##Project Members
-1.Tusar Mozumder -1565539 
-2.Jony Akter- 1628780
-3.Md. Zobyaer Sheikh-156402
-
+1. **Tusar Mozumder** – 1565539  
+2. **Jony Akter** – 1628780  
+3. **Md. Zobyaer Sheikh** – 156402
